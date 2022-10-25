@@ -1,0 +1,35 @@
+package com.experion.utility;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.experion.entity.Product;
+
+public class ProductUtility {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		ArrayList<Product> productList= new ArrayList<Product>();
+		
+		System.out.println("1.Add Card Product 2.Add Account Product 3.Buy Product");
+		int choice = scanner.nextInt();
+		Switch(choice)
+		{
+			case 1:
+				Service.createCardProduct();
+				break;
+				
+			case 2:
+				Service.createAccountProduct();
+				break;
+				
+			case 3:
+				Service.buyProduct();
+				break;
+		}
+		
+		
+
+	}
+
+}

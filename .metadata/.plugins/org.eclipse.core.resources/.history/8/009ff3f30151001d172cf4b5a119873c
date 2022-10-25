@@ -1,0 +1,12 @@
+package com.bank.entity;
+
+import java.util.ArrayList;
+
+public class Customer {
+
+	private String customerName;
+	private String customerCode;
+	private ArrayList<Account> accountList;
+
+	
+}

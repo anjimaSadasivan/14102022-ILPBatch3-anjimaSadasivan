@@ -1,0 +1,82 @@
+package com.experion.service;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+import com.experion.entity.Customer;
+
+
+
+public class Service {
+
+	public static Customer createsavingsAccount() throws Exception {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Customer Code - ");
+		String customerCode = scanner.nextLine();
+		System.out.println("Enter Customer Name - ");
+		String customerName = scanner.nextLine();
+		System.out.println("Savings Max Account created for"+"	"+customerName);
+		System.out.println("Account is Active!!");
+		
+		
+		
+
+		Customer customer = new Customer(customerCode, customerName);
+		return customer;
+
+}
+	public static Customer createcurrentAccount() throws Exception {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Customer Code - ");
+		String customerCode = scanner.nextLine();
+		System.out.println("Enter Customer Name - ");
+		String customerName = scanner.nextLine();
+		System.out.println("Current Account created for"+"	"+customerName);
+		System.out.println("Account is Active!!");
+		
+		
+		
+
+		Customer customer = new Customer(customerCode, customerName);
+		//product.setSerielNo(product.getSerielNo() + 1);
+		//roduct.setSerielNoOriginal(product.getSerielNo());
+		return customer;
+
+}
+	public static Customer createloanAccount() throws Exception {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Customer Code - ");
+		String customerCode = scanner.nextLine();
+		System.out.println("Enter Customer Name - ");
+		String customerName = scanner.nextLine();
+		System.out.println("Loan Account created for"+"	"+customerName);
+		System.out.println("Account is Active!!");
+		Customer customer = new Customer(customerCode, customerName);
+		return customer;
+
+}
+	
+	public static void manageAccount(ArrayList<Customer> accountList)  {
+
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Customer Code - ");
+		String enteredCustomerCode = scanner.nextLine();
+		for (Customer customer : customerList) {
+		if(accountList.contains(enteredCustomerCode));
+			System.out.println(account.getCustomerName()+"	"+"has the following accounts");
+		}
+		
+		
+
+		}
+	public static void displaydetailsofAccount(ArrayList<Customer> accountList) {
+		System.out.println("CustomerId:" + "\t" + "Customer Name "+ "Account Type "+ "Balance ");
+		for (Customer account : accountList) {
+			if (account != null)
+				System.out.println(account.getCustomerCode() + " \t\t" + account.getCustomerName());
+		}
+		
+	}
+}

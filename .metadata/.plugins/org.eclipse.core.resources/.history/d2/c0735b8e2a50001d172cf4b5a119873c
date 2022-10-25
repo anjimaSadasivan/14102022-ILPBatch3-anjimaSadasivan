@@ -1,0 +1,13 @@
+package com.experion.entity;
+
+public class CardAccountServices {
+
+	public void chequeBalance( String chequeBalance) {
+		System.out.println("Balance Checking Initiated");
+	}
+
+	public void cashWithdraw(String cashWithdraw) {
+		System.out.println("Cash withdraw initiated");
+
+	}
+}

@@ -1,0 +1,10 @@
+package com.experion.entity;
+
+public interface AccountServices {
+	
+	public void checkBalance(String checkBalance) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

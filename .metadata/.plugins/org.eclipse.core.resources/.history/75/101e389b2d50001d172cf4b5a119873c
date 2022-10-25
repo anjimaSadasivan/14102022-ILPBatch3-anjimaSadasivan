@@ -1,0 +1,12 @@
+package com.experion.entity;
+
+public interface AccountServices {
+
+	public void abstract checkBalance();
+		
+
+
+		
+	}
+
+

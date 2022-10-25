@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="D:\ILPExperionSharedDocs\SharedbySukesh\21102022\assignment.zip"/>
+			<item value="C:\Users\anjima.sadasivan\Downloads\stackoverflow.zip"/>
+			<item value="D:\ILPExperionSharedDocs\SharedbySukesh\18102022\CCJP12_Day12_DateTime.zip"/>
+			<item value="D:\ILPExperionSharedDocs\SharedbySukesh\17102022\POJO.zip"/>
+			<item value="D:\ILPExperionSharedDocs\SharedbySukesh\15102022\DemonstrationProgram14102022.zip"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="534"/>
+		<item key="DIALOG_Y_ORIGIN" value="203"/>
+	</section>
+</section>

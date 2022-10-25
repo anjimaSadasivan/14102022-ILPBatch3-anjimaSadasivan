@@ -1,0 +1,15 @@
+package com.experion.entity;
+
+public interface AccountServices {
+
+	
+	public abstract void  cashWithdraw();
+	public void checkBalance(String checkBalance);
+	
+		
+
+
+		
+	}
+
+

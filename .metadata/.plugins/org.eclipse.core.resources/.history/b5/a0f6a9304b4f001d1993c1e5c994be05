@@ -1,0 +1,21 @@
+package com.experion.assignment;
+
+import java.util.Scanner;
+
+public class frequencyofanElement {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int sizeofArray=0;
+		System.out.println("Enter the size of array");
+		sizeofArray= scanner.nextInt();
+		int numberArray[]=new numberArray[sizeofArray];
+		for(int i=0;i<sizeofArray;i++)
+		{
+			numberArray[i]=scanner.nextInt();
+		}
+		
+	}
+	
+}

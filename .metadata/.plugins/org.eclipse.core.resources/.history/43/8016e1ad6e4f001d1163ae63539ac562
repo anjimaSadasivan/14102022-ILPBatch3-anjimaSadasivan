@@ -1,0 +1,57 @@
+package com.experion.service;
+
+import java.util.ArrayList;
+
+import com.experion.entity.Account;
+import com.experion.entity.Cards;
+import com.experion.entity.Product;
+
+public class Services {
+
+	public static Product createProduct(String productType) {
+		Product product = null;
+		if (productType.compareTo("Cards") == 0) {
+			product = new Cards("am101", "Mater Card", "Cards", "master");
+		} else if (productType.compareTo("Accounts") == 0) {
+			product = new Account("am101", "Mater Card", "Cards", "master");
+		}
+		return product;
+
+	}
+
+	/*
+	 * public static void createAccountProduct() { // TODO Auto-generated method
+	 * stub
+	 * 
+	 * 
+	 * }
+	 * 
+	 * public static void buyProduct() { // TODO Auto-generated method stub
+	 * //System.out.println("1. Buy Account/t/t 2.Buy Card");
+	
+
+	} */
+
+	public static void displayProductdetails(ArrayList<Product>productList) {
+		// TODO Auto-generated method stub
+		Cards cards = null;
+		Account account = null;
+		System.out.println("Product Code"+"		"+"Product Name"+""		+"Product Type"+"Account/Card");
+
+		for(Product product: productList)
+		{
+			if(product instanceof Cards)
+			{
+				cards= (Cards)product;
+				System.out.println(cards.getProductCode()+cards.getProductName()+cards.getProductType());
+			}
+			else if(product instanceof Account)
+			{
+				System.out.println(account.getProductCode()+account.getProductName()+account.getProductType());
+			}
+			
+		
+	}
+		
+}
+}

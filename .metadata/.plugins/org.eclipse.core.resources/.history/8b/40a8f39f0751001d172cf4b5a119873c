@@ -1,0 +1,18 @@
+package com.bank.service;
+
+import java.util.Scanner;
+
+public class MisService {
+	
+	public static String enterAccountChoice() {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("****Accounts Available***********");
+		System.out.println("1.Savings Max Account\n2.Current Account\n3.Loan Account");
+		System.out.println("Enter Your choice:");
+		String customerAccountChoice = scanner.nextLine();
+		return customerAccountChoice;
+		
+	}
+
+}

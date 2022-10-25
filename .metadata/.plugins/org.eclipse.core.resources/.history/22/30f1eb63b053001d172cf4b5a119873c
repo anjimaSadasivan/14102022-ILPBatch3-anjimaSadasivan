@@ -1,0 +1,9 @@
+package com.experion.assignment;
+
+public class Suminarray {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

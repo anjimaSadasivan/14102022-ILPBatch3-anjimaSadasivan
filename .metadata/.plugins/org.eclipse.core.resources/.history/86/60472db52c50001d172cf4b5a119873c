@@ -1,0 +1,10 @@
+package com.experion.entity;
+
+public interface AccountServices {
+	
+	public abstract  checkBalance(String checkBalance)
+	{
+		System.out.print("Check Balance Initiated");
+	}
+
+}

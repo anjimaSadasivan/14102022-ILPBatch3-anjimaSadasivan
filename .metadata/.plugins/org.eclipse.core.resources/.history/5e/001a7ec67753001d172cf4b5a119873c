@@ -1,0 +1,44 @@
+package com.experion.assignment;
+
+import java.util.Scanner;
+
+public class sumofSeries1 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		  System.out.print("Enter the number of terms: ");
+		  int n = scanner.nextInt();
+		  int firstTerm = 1;
+		  int i =0;
+		  int s= 0;
+		  int p=2;
+		  for(i=1;iN=n;i=i+2)
+		  {
+			  if(p%2==0)
+			  {
+				  s=s+i;
+			  }
+			  else {
+				  s=s-i;
+				  p=p+1;
+			  }
+		  }
+		  System.out.print(s);
+		  
+		 /* int i = 1, c, f = 1; 
+		  int sum = 0;
+		  // i for odd nos, c for counter, f for flag
+		  for (c = 1; c <= n; c++) {
+		   if (f % 2 == 0) {
+		    System.out.print(-i + " ");
+		   } else {
+		    System.out.print(i + " ");
+		   }
+		   i += 2;
+		   f++;*/
+		   
+
+	}
+
+}
+}
